@@ -20,10 +20,8 @@
 }
 
 .team-list .item {
-    font-size: 16px;
-    line-height: 1.18;
+    @include font(16px, null, 1.18, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .team .mate {
@@ -39,8 +37,7 @@
 }
 
 .team-soc-list {
-    display: flex;
-    justify-content: center;
+    @include centeredFlex($ai:null);
     padding-bottom: 30px;
 }
 
@@ -56,10 +53,8 @@
 .team-soc-link {
     width: 100%;
     height: 100%;
-    display: flex;
+    @include centeredFlex();
     border-radius: 50%;
-    justify-content: center;
-    align-items: center;
 
     color: var(--primary-icon-color);
     transition: color 250ms var(--primary-cubic-bezier), background-color 250ms var(--primary-cubic-bezier);
@@ -70,8 +65,6 @@
         background-color: var(--accent-color);
     }
 }
-
-
 
 .team-soc-icon {
     fill: currentColor;

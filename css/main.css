@@ -117,8 +117,8 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--title-text-color);
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -152,9 +152,7 @@ img {
 }
 
 /* .header-contacts .item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include centeredFlex();
 } */
 .header-contacts .item + .item {
   margin-left: 50px;
@@ -166,8 +164,8 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -181,8 +179,8 @@ img {
   margin-right: 93px;
   font-family: "Raleway", sans-serif;
   color: var(--accent-color);
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
@@ -218,8 +216,8 @@ img {
   margin: 0 auto 30px;
   width: 696px;
   color: var(--light-text-color);
-  font-weight: 900;
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -229,8 +227,8 @@ img {
   padding: 10px 24px;
   min-width: 200px;
   color: var(--light-text-color);
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
@@ -252,8 +250,8 @@ img {
 
 .benefits-bgd {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -302,8 +300,8 @@ img {
   width: 100%;
   height: 70px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1.14;
@@ -314,9 +312,9 @@ img {
 .title {
   margin-bottom: 50px;
   font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
+  font-weight: 500;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 
@@ -344,8 +342,8 @@ img {
 .team-list .item {
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .team .mate {
@@ -378,9 +376,9 @@ img {
   width: 100%;
   height: 100%;
   display: flex;
-  border-radius: 50%;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  border-radius: 50%;
   color: var(--primary-icon-color);
   transition: color 250ms var(--primary-cubic-bezier), background-color 250ms var(--primary-cubic-bezier);
 }
@@ -396,8 +394,8 @@ img {
 /* Clients  */
 .clients-list {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .clients-item {
@@ -412,8 +410,8 @@ img {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   border: 1px solid var(--primary-icon-color);
   border-radius: 4px;
   color: var(--primary-icon-color);
@@ -452,8 +450,8 @@ img {
 .address,
 .footer-contacts {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.7;
 }
 
@@ -467,8 +465,8 @@ img {
 
 .soc-block {
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
-  align-items: start;
   margin-right: 93px;
 }
 
@@ -483,8 +481,8 @@ img {
 
 .footer-soc-list {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-soc-items {
@@ -499,9 +497,9 @@ img {
   width: 100%;
   height: 100%;
   display: flex;
-  border-radius: 50%;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   color: #ffffff;
   transition: background-color 250ms var(--primary-cubic-bezier);
@@ -536,22 +534,22 @@ img {
 }
 .subscribe-input::-moz-placeholder {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
 .subscribe-input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
 .subscribe-input::placeholder {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
@@ -580,11 +578,11 @@ img {
   padding: 6px 22px;
   min-width: 73px;
   border: none;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
   background-color: var(--additional-bgd-color);
   transition: color 250ms var(--primary-cubic-bezier), background-color 250ms var(--primary-cubic-bezier), box-shadow 250ms var(--primary-cubic-bezier);
@@ -644,8 +642,8 @@ img {
   transform: translateY(100%);
   background-color: rgba(33, 150, 243, 0.9);
   color: #FFFFFF;
-  font-weight: 400;
   font-size: 18px;
+  font-weight: 400;
   line-height: 1.56;
 }
 .works-list .link:hover .work-overlay-text, .works-list .link:focus .work-overlay-text {
@@ -735,11 +733,11 @@ img {
 
 .modal-form-title {
   margin-bottom: 12px;
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
 }
 
@@ -753,8 +751,8 @@ img {
 .modal-form-label {
   display: block;
   margin-bottom: 4px;
-  font-weight: 400;
   font-size: 12px;
+  font-weight: 400;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: var(--primary-text-color);

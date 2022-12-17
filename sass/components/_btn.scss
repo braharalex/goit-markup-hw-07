@@ -3,10 +3,7 @@
     min-width: 200px;
 
     color: var(--light-text-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
+    @include font(16px, 700, 1.88, 0.06em);
     background-color: var(--accent-color);
     border: none;
 

@@ -3,10 +3,7 @@
 
     font-family: 'Raleway', sans-serif;
     color: var(--accent-color);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    @include font(26px, 700, 1.19, 0.03em);
 }
 
 .logo-header {

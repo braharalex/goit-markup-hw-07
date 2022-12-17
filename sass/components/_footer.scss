@@ -7,8 +7,7 @@
 }
 
 .footer-main {
-    display: flex;
-    align-items: flex-start;
+    @include centeredFlex($ai:flex-start, $jc:null);
     margin-right: auto;
 }
 
@@ -23,9 +22,7 @@
 .address,
 .footer-contacts {
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
+    @include font(14px, 400, 1.7, null);
 }
 
 .address {
@@ -38,9 +35,8 @@
 
 
 .soc-block {
-    display: flex;
+    @include centeredFlex($ai:flex-start, $jc:null);
     flex-direction: column;
-    align-items: start;
     margin-right: 93px;
 }
 
@@ -55,9 +51,7 @@
 
 
 .footer-soc-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex();
 }
 
 .footer-soc-items {
@@ -73,10 +67,8 @@
 .footer-soc-link {
     width: 100%;
     height: 100%;
-    display: flex;
+    @include centeredFlex();
     border-radius: 50%;
-    justify-content: center;
-    align-items: center;
 
     background-color: rgba(255, 255, 255, 0.1);
     color: #ffffff;
@@ -116,17 +108,12 @@
 
     &::placeholder {
             color: rgba(255, 255, 255, 0.6);
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 1.25;
-            letter-spacing: 0.03em;
+            @include font(16px, 400, 1.25, 0.03em);
         }
 }
 
 .subscribe-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include centeredFlex();
     padding: 10px 24px;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
