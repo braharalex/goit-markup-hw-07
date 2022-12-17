@@ -3,7 +3,7 @@
     min-width: 200px;
 
     color: var(--light-text-color);
-    @include font(16px, 700, 1.88, 0.06em);
+    @include font(16, 700, 1.88, 0.06em);
     background-color: var(--accent-color);
     border: none;
 

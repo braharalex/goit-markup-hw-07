@@ -22,13 +22,13 @@
 .benefits .subtitle {
     margin-bottom: 10px;
 
-    @include font(14px, null, 1.14, 0.03em);
+    @include font(14, null, 1.14, 0.03em);
     text-transform: uppercase;
     color: var(--title-text-color);
 }
 
 .benefits .text {
-    @include font(14px, null, 1.71, 0.03em);
+    @include font(14, null, 1.71, 0.03em);
 }
 
 .benefits .item+.item {

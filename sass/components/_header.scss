@@ -27,7 +27,7 @@
     padding-bottom: 32px;
 
     color: var(--title-text-color);
-    @include font(14px, 500, 1.14, 0.02em);
+    @include font(14, 500, 1.14, 0.02em);
 }
 
 .link.current {
@@ -78,7 +78,7 @@
     padding-bottom: 32px;
 
     color: var(--primary-text-color);
-    @include font(14px, 500, 1.14, 0.02em);
+    @include font(14, 500, 1.14, 0.02em);
 }
 
 .contacts-icon {

@@ -20,7 +20,7 @@
 }
 
 .team-list .item {
-    @include font(16px, null, 1.18, 0.03em);
+    @include font(16, null, 1.18, 0.03em);
     text-align: center;
 }
 

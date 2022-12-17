@@ -33,7 +33,7 @@
 .title {
     margin-bottom: 50px;
 
-    @include font(36px, 500, null, 0.03em);
+    @include font(36, 500, null, 0.03em);
     text-align: center;
     color: var(--title-text-color);
 }

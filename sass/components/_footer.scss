@@ -22,7 +22,7 @@
 .address,
 .footer-contacts {
     font-style: normal;
-    @include font(14px, 400, 1.7, null);
+    @include font(14, 400, 1.7, null);
 }
 
 .address {
@@ -108,7 +108,7 @@
 
     &::placeholder {
             color: rgba(255, 255, 255, 0.6);
-            @include font(16px, 400, 1.25, 0.03em);
+            @include font(16, 400, 1.25, 0.03em);
         }
 }
 

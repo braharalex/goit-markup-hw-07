@@ -17,6 +17,6 @@
     width: 696px;
 
     color: var(--light-text-color);
-    @include font(44px, 900, 1.36, 0.06em);
+    @include font(44, 900, 1.36, 0.06em);
     text-transform: uppercase;
 }

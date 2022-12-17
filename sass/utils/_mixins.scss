@@ -5,8 +5,15 @@
 }
 
 @mixin font($fs, $fw, $lh, $ls) {
-    font-size: $fs;
+    font-size: $fs + px;
     font-weight: $fw;
     line-height: $lh;
+    letter-spacing: $ls;
+}
+
+@mixin fontcalc($fs, $fw, $lh, $ls) {
+    font-size: $fs + px;
+    font-weight: $fw;
+    line-height: $lh / $fs;
     letter-spacing: $ls;
 }
