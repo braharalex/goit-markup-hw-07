@@ -3,11 +3,11 @@
     background-color: var(--additional-bgd-color);
 }
 
-.team-list {
+.cards {
     display: flex;
 }
 
-.team-list .items {
+.cards__item {
     max-width: 270px;
     width: calc((100% - 90px) / 4);
     box-shadow: var(--team-shadow);
@@ -19,12 +19,12 @@
         }
 }
 
-.team-list .item {
+.cards__text {
     @include font(16, null, 1.18, 0.03em);
     text-align: center;
 }
 
-.team .mate {
+.cards__name {
     margin-bottom: 10px;
     padding-top: 30px;
 
@@ -32,7 +32,7 @@
     color: var(--title-text-color);
 }
 
-.team .job {
+.cards__descr {
     margin-bottom: 16px;
 }
 
@@ -63,8 +63,4 @@
         color: #ffffff;
         background-color: var(--accent-color);
     }
-}
-
-.soc-list__icon {
-    fill: currentColor;
 }

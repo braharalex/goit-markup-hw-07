@@ -9,7 +9,7 @@
     border-radius: 4px;
 }
 
-.modal-form-title {
+.modal-form__title {
     margin-bottom: 12px;
 
     @include font(20, 700, 1.15, 0.03em);
@@ -17,14 +17,14 @@
     color: var(--title-text-color);
 }
 
-.modal-form-item {
+.modal-form__item {
     margin-bottom: 10px;
     &:nth-child(5n) {
         margin-bottom: 20px;
     }
 }
 
-.modal-form-label {
+.modal-form__label {
     display: block;
     margin-bottom: 4px;
 
@@ -32,11 +32,11 @@
     color: var(--primary-text-color);
 }
 
-.modal-input-wrapper {
+.modal-form__wrapper {
     position: relative;
 }
 
-.modal-form-icon {
+.modal-form__icon {
     position: absolute;
     top: 50%;
     left: 12px;
@@ -44,8 +44,8 @@
     transition: fill 250ms var(--primary-cubic-bezier);
 }
 
-.modal-form-input,
-.modal-form-comment {
+.modal-form__input,
+.modal-form__comment {
     display: block;
     width: 100%;
     min-height: 40px;
@@ -66,12 +66,12 @@
 }
 
 
-.modal-form-input:focus+svg,
-.modal-form-input:hover+svg {
+.modal-form__input:focus+svg,
+.modal-form__input:hover+svg {
     fill: var(--accent-color);
 }
 
-.modal-form-comment {
+.modal-form__comment {
     min-height: 120px;
     padding-left: 16px;
     resize: none;
