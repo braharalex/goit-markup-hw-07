@@ -31,6 +31,15 @@ img {
     text-decoration: none;
 }
 
+.link.act {
+    transition: color 250ms var(--primary-cubic-bezier);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
 .btn {
     display: inline-block;
     border: 1px solid transparent;

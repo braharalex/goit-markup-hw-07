@@ -16,12 +16,12 @@
     display: flex;
 }
 
-.site-nav .item+.item {
+.site-nav__item + .site-nav__item {
     margin-left: 50px;
 }
 
 
-.site-nav .link {
+.site-nav__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -30,7 +30,7 @@
     @include font(14, 500, 1.14, 0.02em);
 }
 
-.link.current {
+.site-nav__link--current {
     position: relative;
     color: var(--accent-color);
 
@@ -46,17 +46,6 @@
         border-radius: 2px;
     }
 }
-
-
-
-.link.act {
-    transition: color 250ms var(--primary-cubic-bezier);
-    &:hover,
-    &:focus {
-            color: var(--accent-color);
-        }
-}
-
 
 .contact-list {
     @include centeredFlex($jc:null);
