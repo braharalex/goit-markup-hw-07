@@ -11,7 +11,7 @@
     letter-spacing: $ls;
 }
 
-@mixin fontcalc($fs, $fw, $lh, $ls) {
+@mixin fontCalc($fs, $fw, $lh, $ls) {
     font-size: $fs + px;
     font-weight: $fw;
     line-height: $lh / $fs;

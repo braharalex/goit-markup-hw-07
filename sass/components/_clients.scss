@@ -1,9 +1,9 @@
 /* Clients  */
-.clients-list {
+.clients__list {
     @include centeredFlex();
 }
 
-.clients-item {
+.clients__item {
     width: 170px;
     height: 92px;
     &:not(:last-child) {
@@ -11,7 +11,7 @@
         }
 }
 
-.clients-link {
+.clients__link {
     width: 100%;
     height: 100%;
     @include centeredFlex();
@@ -27,6 +27,6 @@
     }
 }
 
-.clients-icon {
+.clients__icon {
     fill: currentColor;
 }

@@ -1,9 +1,10 @@
 /* About */
-.about-list {
+.about__list {
     display: flex;
 }
 
-.about-list .item {
+.about__item {
+    position: relative;
     width: calc((100% - 60px) / 3);
     
     &:not(:last-child) {
@@ -11,11 +12,7 @@
     }
 }
 
-.about .item {
-    position: relative;
-}
-
-.about-text {
+.about__text {
     position: absolute;
     bottom: 0;
     left: 0;

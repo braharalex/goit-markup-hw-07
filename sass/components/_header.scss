@@ -58,21 +58,20 @@
 }
 
 
-.header-contacts {
+.contact-list {
     @include centeredFlex($jc:null);
     margin-left: auto;
 }
 
-/* .header-contacts .item {
+/* .contact-list__item {
     @include centeredFlex();
 } */
 
-
-.header-contacts .item+.item {
+.contact-list__item +.contact-list__item {
     margin-left: 50px;
 }
 
-.header-contacts .link {
+.contact-list__link {
     @include centeredFlex($jc:null);
     padding-top: 32px;
     padding-bottom: 32px;
@@ -81,7 +80,7 @@
     @include font(14, 500, 1.14, 0.02em);
 }
 
-.contacts-icon {
+.contact-list__icon {
     fill: currentColor;
     margin-right: 10px;
 }
