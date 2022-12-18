@@ -10,7 +10,7 @@
     display: flex;
 }
 
-.benefits-bgd {
+.benefits__bgd {
     @include centeredFlex();
     width: 270px;
     height: 120px;
@@ -19,7 +19,7 @@
     background-color: var(--additional-bgd-color);
 }
 
-.benefits .subtitle {
+.benefits__subtitle {
     margin-bottom: 10px;
 
     @include font(14, null, 1.14, 0.03em);
@@ -27,10 +27,10 @@
     color: var(--title-text-color);
 }
 
-.benefits .text {
+.benefits__text {
     @include font(14, null, 1.71, 0.03em);
 }
 
-.benefits .item+.item {
+.benefits__item  + .benefits__item {
     margin-left: 30px;
 }

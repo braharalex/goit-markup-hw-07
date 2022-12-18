@@ -1,10 +1,10 @@
 /* --------------PORTFOLIO page-------------------------------------------- */
-.works-btns {
+.btns {
     @include centeredFlex($ai: null);
     margin-bottom: 50px;
 }
 
-.works-btns .btn {
+.btns__btn {
     padding: 6px 22px;
     min-width: 73px;
     border: none;
@@ -25,16 +25,16 @@
     }  
 }
 
-.works-btns .item+.item {
+.btns__item +.btns__item {
     margin-left: 8px;
 }
 
-.works-list {
+.overlay-cards {
     display: flex;
     flex-wrap: wrap;
 }
 
-.works-list .elem {
+.overlay-cards__elem {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
@@ -47,7 +47,7 @@
     }
 }
 
-.works-list .link {
+.overlay-cards__link {
     display: block;
 
     transition: box-shadow 250ms var(--primary-cubic-bezier);
@@ -57,18 +57,18 @@
     }
 }
 
-.works-list .item {
+.overlay-cards__item {
     padding: 20px 24px;
     border: 1px solid var(--light-border-color);
     border-top: none;
 }
 
-.work-thumb {
+.overlay-cards__thumb {
     position: relative;
     overflow: hidden;
 }
 
-.work-overlay-text {
+.overlay-cards__text {
     position: absolute;
     top: 1px;
     height: 100%;
@@ -81,19 +81,19 @@
     color: #FFFFFF;
     @include font(18, 400, 1.56, null);
 
-    .works-list .link:hover &,
-    .works-list .link:focus & {
+    .overlay-cards__link:hover &,
+    .overlay-cards__link:focus & {
         transform: translateY(0);
     }
 }
 
-.work-name {
+.overlay-cards__name {
     @include font(18, null, 2, 0.06em);
     color: var(--title-text-color);
     margin-bottom: 4px;
 }
 
-.work-descr {
+.overlay-cards__descr {
     @include font(16, null, 1.88, 0.03em);
     color: var(--primary-text-color);
 }
